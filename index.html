@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>React to HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>React to HTML</title>
 </head>
+
 <body>
-  <div id="root">
-    <div>
-      <!-- <img src="images/20240729_212351.jpg" class="logo"/>
-      <img src="images/20240729_121300.jpg" class="logo"/>
-      <img src="images/20240729_212329.jpg" class="logo"/> -->
+    <div id="root">
+        <div>
+            <img src="images/20240729_212351.jpg" class="logo" />
+            <img src="images/20240729_212329.jpg" class="logo" />
+            <img src="images/20240729_121300.jpg" class="logo" />
+        </div>
+        <h1>Will you be my bestie AGAIN?</h1>
+        <div class="card">
+            <a href="yes.html">
+                <button class="yes-button" onclick="yes()">
+                    YES
+                </button>
+            </a>
+            <button class="no-button" onclick="alert('Pretty Please🥺🥺')">
+                NO
+            </button>
+        </div>
     </div>
-    <!-- <h1>Will you?</h1> -->
-    <div class="card">
-      <button class="yes-button" onclick="alert('Are you sure?🤔🤔')">
-        YES
-      </button>
-      <button class="no-button" onclick="alert('Are you kidding me!!😑😑')">
-        NO
-      </button>
-    </div>
-    <div class="card">
-      <!-- Additional content can go here -->
-    </div>
-  </div>
+    <script src="script.js"></script>
 </body>
+
 </html>

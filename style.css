@@ -1,26 +1,72 @@
-html,body {
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background: linear-gradient(180deg, #dea0aa, #00FFFF); /* Updated gradient */
+    font-family: Arial, sans-serif; /* Add a font for better readability */
+    color: #333; /* Set a default text color */
+}
+
+img {
+    width: 20%;
+    height: auto;
+    margin: 10px;
+    border: 3px solid #fff; /* Add a white border around images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-radius: 10px; /* Slightly round the corners */
 }
 
 #root {
     display: flex;
     height: 100%;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
+h1 {
+    font-size: 2em; /* Increase the size of the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+    color: #555; /* Darken the heading color slightly */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Add a text shadow for depth */
+}
+
 .card {
     padding: 1em;
+    background: #fff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-bottom: 20px; /* Add space below the card */
+    border: 1px solid #ddd; /* Add a light border to the card */
 }
 
 button {
     font-size: 2em;
     margin-right: 20px;
+    padding: 10px 20px; /* Add padding to the buttons */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Round the button corners */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition for background color */
 }
 
-.no-button {
+button.yes-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+}
+
+button.no-button {
+    background-color: #f44336; /* Red background */
+    color: white; /* White text */
     margin-right: 0;
+}
+
+button:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}
+
+.text{
+    margin: 3%;
+    background:pink /* Updated gradient */
 }
