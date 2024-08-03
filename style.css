@@ -70,3 +70,27 @@ button:hover {
     margin: 3%;
     background:pink /* Updated gradient */
 }
+
+.shadow-border {
+    border: 2px solid #ddd; /* Light gray border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding inside the element */
+    margin: 10px;
+}
+
+.container{
+    border: 2px solid #ddd; /* Light gray border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding inside the element */
+    margin: 10px;
+    font-size: 20px;
+
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
